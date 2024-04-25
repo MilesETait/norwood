@@ -224,7 +224,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 42.375rem;
+  min-height: 42.5rem;
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
@@ -249,7 +249,7 @@ blockquote {
   justify-content: center;
   align-items: center;
   height: 60vh;
-  min-height: 20rem;
+  min-height: 24rem;
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
