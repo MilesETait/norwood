@@ -1463,11 +1463,8 @@ blockquote {
   grid-row-gap: 1rem;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
   display: flex;
-}
-
-.menu-navigation.vertical {
-  flex-flow: column;
 }
 
 .menu-wrapper {
@@ -1595,20 +1592,6 @@ blockquote {
 
 .footer-nap {
   padding-top: 1rem;
-}
-
-.our-menus-wrapper {
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  display: flex;
-}
-
-.our-menus-wrapper.vertical {
-  flex-flow: column;
 }
 
 @media screen and (max-width: 991px) {
@@ -2014,6 +1997,11 @@ blockquote {
     display: flex;
   }
 
+  .menu-navigation {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+  }
+
   .menu-wrapper {
     grid-row-gap: 2rem;
     grid-template-columns: 1fr;
@@ -2179,26 +2167,13 @@ blockquote {
   .hide-mobile-portrait {
     display: none;
   }
-
-  .our-menus-wrapper {
-    grid-column-gap: .5rem;
-    grid-row-gap: .5rem;
-  }
 }
 
 #w-node-_56ded1d6-e781-fac0-5718-fcdad5da7b1c-bdf31556, #w-node-_2d57e42a-c55a-07f2-b512-3190031ef603-bdf31556 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_81060174-883c-5367-479f-70edce4ac173-bdf31559, #w-node-b2d3d04f-a705-9ac3-19f6-5eabb0190f7e-bdf31559 {
-  grid-area: span 1 / span 2 / span 1 / span 2;
-}
-
-#w-node-_97f71e15-38cd-88ab-67ca-1080bea07099-bdf31559 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-f581bd30-f518-8e56-aff1-e8bae00b5cb6-bdf31559, #w-node-f581bd30-f518-8e56-aff1-e8bae00b5d44-bdf31559, #w-node-a4abcf07-eeec-87ba-e512-4e4ee5d0a097-bdf31559, #w-node-a4abcf07-eeec-87ba-e512-4e4ee5d0a125-bdf31559, #w-node-_3373900f-6f7e-78eb-f89c-aa7053274a13-bdf31559, #w-node-_3373900f-6f7e-78eb-f89c-aa7053274a41-bdf31559 {
+#w-node-_81060174-883c-5367-479f-70edce4ac173-bdf31559, #w-node-b2d3d04f-a705-9ac3-19f6-5eabb0190f7e-bdf31559, #w-node-a4abcf07-eeec-87ba-e512-4e4ee5d0a097-bdf31559, #w-node-a4abcf07-eeec-87ba-e512-4e4ee5d0a125-bdf31559, #w-node-f581bd30-f518-8e56-aff1-e8bae00b5cb6-bdf31559, #w-node-f581bd30-f518-8e56-aff1-e8bae00b5d44-bdf31559 {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
