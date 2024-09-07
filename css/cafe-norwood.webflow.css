@@ -431,6 +431,10 @@ blockquote {
   margin-right: auto;
 }
 
+.text-box.express-hero {
+  max-width: 530px;
+}
+
 ._12-columns {
   flex-flow: wrap;
   place-content: stretch center;
