@@ -272,6 +272,10 @@ blockquote {
   padding-bottom: 20px;
 }
 
+.section.hide {
+  display: none;
+}
+
 .button {
   background-color: var(--slate);
   color: var(--white);
@@ -433,6 +437,10 @@ blockquote {
 
 .text-box.express-hero {
   max-width: 530px;
+}
+
+.text-box.functions-hero, .text-box.functions-faq {
+  max-width: 540px;
 }
 
 ._12-columns {
@@ -601,8 +609,12 @@ blockquote {
   bottom: -80px;
 }
 
-.rich-text {
-  text-align: left;
+.rich-text p {
+  margin-bottom: 32px;
+}
+
+.rich-text h3 {
+  margin-bottom: 8px;
 }
 
 .logo-div {
@@ -1641,6 +1653,24 @@ blockquote {
   margin-right: auto;
   display: grid;
   position: relative;
+}
+
+.package-option-container {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.package-option-wrapper {
+  background-color: var(--dark-slate);
+  color: var(--faint-pink);
+  flex: 1;
+  padding: 2rem;
+}
+
+.package-option-content {
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
